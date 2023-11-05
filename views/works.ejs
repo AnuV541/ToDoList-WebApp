@@ -1,0 +1,13 @@
+<% if(locals.theItem){%>
+    <div class="item">
+    <input type="checkbox"><p><%= theItem %></p>
+    </div>
+    <% }%>
+    <% for (let item of locals.items) { %>
+        <div class="item">
+            <input type="checkbox"> <p><%= item %></p>
+        </div>
+    <% } %>
+
+    
+    
